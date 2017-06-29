@@ -7,7 +7,14 @@
     "description": "A Module for Biometric Device Integration",
     "depends" : ["base","hr"],
     "init_xml" : [],
-    "data" : ["biometric_machine_view.xml"],
+    "data" : [
+        "views/biometric_machine_view.xml",
+        "views/hr_employee_view.xml",
+        #"views/hr_attendance_view.xml",
+        #"report/daily_attendance_view.xml",
+        "schedule.xml",
+        "wizard/schedule_wizard.xml",
+    ],
     "active": False,
     "installable": True
 }
